@@ -37,6 +37,8 @@
         </div>
         <div class="footer">
             <div class="title">Footer</div>
+            <a class="arrow-left" href="#"></a> 
+            <a class="arrow-right" href="#"></a>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
@@ -50,6 +52,14 @@
                 						  cssWidthAndHeight: true,
                 						  calculateHeight: true
                                       });
+          $('.arrow-left').on('click', function(e){
+            e.preventDefault()
+            mySwiper.swipePrev()
+          })
+          $('.arrow-right').on('click', function(e){
+            e.preventDefault()
+            mySwiper.swipeNext()
+          })
         </script>
         <script type="text/javascript">
             app.initialize();

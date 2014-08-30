@@ -36,6 +36,24 @@ body {
     color: #fff;
     padding-top: 25px;
 }
+.footer .arrow-left {
+  background: url(img/arrows.png) no-repeat left top;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+}
+.footer .arrow-right {
+  background: url(img/arrows.png) no-repeat left bottom;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -15px;
+  width: 17px;
+  height: 30px;
+}
 .swiper-container, .swiper-wrapper, .swiper-slide
 {
     width: 100%;
