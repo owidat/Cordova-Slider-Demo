@@ -12,29 +12,28 @@ body {
 }
 .header{
     width: 100%;
-    height: 15%;
-	position:fixed !important;
+    height: 10%;
     top:0px !important;
     z-index:100;
 } 
 .content{
 	height: 80%;
-    padding-bottom:15%;
-    padding-top:15%;
+    padding-bottom:10%;
 }
 .footer{
     background: #333;
 	position:fixed !important;
     width: 100%;
-    height: 15%;
+    height: 10%;
     bottom:0px !important;
     z-index:100;
 }
 .header .title, .footer .title{
+    position: relative;
     text-align: center;
     font-size: 25px;
     color: #fff;
-    padding-top: 25px;
+    top: 30%;
 }
 .footer .arrow-left {
   background: url(img/arrows.png) no-repeat left top;
